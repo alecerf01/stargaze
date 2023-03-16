@@ -2,7 +2,7 @@ import React from 'react'
 import HeroSection from '../../components/HeroSection';
 import './style.css';
 
-function Home() {
+function Homepage() {
   return (
     <div className='bckg'>
       <HeroSection />
@@ -10,4 +10,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Homepage
