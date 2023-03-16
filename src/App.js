@@ -11,12 +11,7 @@ import './App.css';
 
 function App() {
 
-//   var url = `https://images-api.nasa.gov/search?q=leo`;
-//   console.log(url)
-//   axios.get(url)
-//       .then(function(response) {
-//               console.log(response.data.collection.items[0].links[0].href); 
-// });
+
 
   return (
     <Router>
@@ -24,6 +19,7 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/" element={<Homepage />} />
+       
           <Route path="/home" element={<Homepage />} />
           <Route path="/item1" element={<Item1 />} />
         </Routes>
