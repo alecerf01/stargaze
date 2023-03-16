@@ -39,4 +39,4 @@ const starImageOne = starImage.photos[0].img_src
   )
 }
 
-export default Home
+export default Homepage
