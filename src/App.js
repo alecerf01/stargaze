@@ -1,12 +1,10 @@
 import React from 'react'
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Navigation from './components/Navigation';
-import Home from './pages/Home';
+import Home from './pages/Homepage';
 import Item1 from './pages/Item1';
 import Footer from './components/Footer';
-
 import './App.css';
-
 import axios from 'axios';
 
 
@@ -22,7 +20,7 @@ function App() {
 
   return (
     <Router>
-      <div>
+      <>
         <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -30,7 +28,7 @@ function App() {
           <Route path="/item1" element={<Item1 />} />
         </Routes>
         <Footer />
-      </div>
+      </>
     </Router>
   );
 }

@@ -6,7 +6,7 @@ function Footer() {
         <footer className="footer">
             <span>
                 <img src="/logo.svg"
-                    height="40"
+                    height="20"
                     className="d-inline-block align-top"
                     alt="stargaze logo"
                 />
