@@ -3,7 +3,9 @@ import './style.css';
 
 function Home() {
   return (
-    <div>hey</div>
+    <div className='bckg'>
+
+    </div>
   )
 }
 
