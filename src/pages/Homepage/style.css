@@ -1,0 +1,5 @@
+.bckg {
+    background: url('../../images/stars.jpg')
+    center center/cover no-repeat;
+    height: 100vh;
+}
