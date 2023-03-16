@@ -3,7 +3,8 @@ import HeroSection from '../../components/HeroSection';
 import './style.css';
 import axios from 'axios';
 
-function Home() {
+
+function Homepage() {
   const [starSearch, setStarSearch ] = useState('');
 const [starImage, setStarImage] = useState({});
 const API_KEY = '6b3Hin4OoLFrPjYUINVedOoT7MlvEm0zfNtMlbu0';
@@ -24,7 +25,7 @@ console.log(err)
 });
 }
 
-const starImageOne = starImage.photos[0].img_src
+const starImageOne = starImage.photos
   return (
     <div className='bckg'>
       <input type='text' onChange={e => setStarSearch(e.target.value)}></input>
@@ -34,6 +35,7 @@ const starImageOne = starImage.photos[0].img_src
       <><img src={starImageOne} /></>
     :
     <><p>We have no Image</p></>}
+
       <HeroSection />
     </div>
   )
