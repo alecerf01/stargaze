@@ -24,11 +24,11 @@ function Navigation() {
                             </li>
 
                             <li className="nav-item">
-                                <NavLink to="#" end className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}> Item1 </NavLink>
+                                <NavLink to="/favourite" end className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}> Favourite </NavLink>
                             </li>
 
                             <li className="nav-item">
-                                <NavLink to="#" end className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}> Item2 </NavLink>
+                                <NavLink to="#" end className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}> Item 2 </NavLink>
                             </li>
                         </ul>
                     </Nav>

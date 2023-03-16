@@ -6,7 +6,7 @@ function HeroSection() {
   return (
     <>
     <h1 className='header'>Find the best stargazing locations</h1>
-    
+  
     </>
   )
 }
