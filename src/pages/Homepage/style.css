@@ -3,3 +3,11 @@
     center center/cover no-repeat;
     height: 100vh;
 }
+
+.header {
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+    font-size: 60px;
+    font-weight: 200;
+}
