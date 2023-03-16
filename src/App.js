@@ -5,7 +5,7 @@ import Homepage from './pages/Homepage';
 import Item1 from './pages/Item1';
 import Footer from './components/Footer';
 import './App.css';
-import axios from 'axios';
+// import axios from 'axios';
 
 
 
