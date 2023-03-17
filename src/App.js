@@ -19,7 +19,7 @@ function App() {
           <Route path="/favourite" element={<Favourite />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Footer />
+ 
       </>
     </Router>
   );
