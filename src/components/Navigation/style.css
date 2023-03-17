@@ -2,7 +2,10 @@
     background-color: black !important;
     padding: 20px 0 !important;
     border-bottom: 1px solid rgb(36, 90, 239);
-    /* box-shadow: rgba(36, 90, 239, 0.3) 0px 8px 24px; */
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .nav-link {

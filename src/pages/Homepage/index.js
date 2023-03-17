@@ -2,6 +2,7 @@ import HeroSection from '../../components/HeroSection';
 import Search from '../../components/Search';
 import Constellation from '../../components/Constellation';
 import Wrapper from "../../components/Wrapper";
+import Footer from "../../components/Footer";
 import constellations from "../../constellations.json";
 import './style.css';
 
@@ -10,6 +11,7 @@ import './style.css';
 function Homepage() {
   return (
     <div className='bckg'>
+      
       <div className='hero-sec'>
         <HeroSection />
         <Search />
@@ -29,6 +31,9 @@ function Homepage() {
           })}
         </Wrapper>
       </div>
+      <Footer />  {/* to remove - footer is added to app.js */}
+      
+
     </div>
   )
 }
