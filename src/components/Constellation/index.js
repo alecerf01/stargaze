@@ -12,7 +12,7 @@ function Constellation(props) {
 
       <div className="content">
           <p className='constell-name'> {props.name} </p>
-          <a className='constell-link' href={props.site}>Read more</a>
+          <a className='constell-link' target='_blank' href={props.site}>Read more</a>
 
       </div>
     </div>
