@@ -5,8 +5,9 @@ import './style.css';
 function HeroSection() {
   return (
     <>
-    <h1 className='header'>Find the best stargazing locations</h1>
-  
+      <div >
+        <h1 className='header'>Find the best stargazing locations</h1>
+      </div>
     </>
   )
 }
