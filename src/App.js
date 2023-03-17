@@ -4,6 +4,7 @@ import Homepage from './pages/Homepage';
 import Favourite from './pages/Favourite';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
+import Contact from './pages/Contact';
 
 
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/homepage" element={<Homepage />} />
           <Route path="/favourite" element={<Favourite />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </>

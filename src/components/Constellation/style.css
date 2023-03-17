@@ -4,12 +4,9 @@
     width: 350px;
   }
 
-  /* .constell-card>.img-container {
-    height: 60%;
-  } */
-
   .constell-card>.img-container>img {
     width: 100%;
+    border-radius: 8px;
   }
 
   .constell-name {
@@ -19,16 +16,17 @@
   }
 
   .constell-link {
+    margin-top: -20px;
     color: white;
     text-decoration: none;
     font-size: 12px;
     font-weight: 600;
-    background-color: black;
+    background-color: rgb(44, 110, 251);
     padding: 8px 30px;
     border-radius: 8px;
   }
 
   .constell-link:hover {
-    background-color: white;
-    color: blue;
+    background-color: rgb(144, 174, 239);
+    color: black;
   }

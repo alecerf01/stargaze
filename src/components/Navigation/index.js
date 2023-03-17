@@ -28,7 +28,7 @@ function Navigation() {
                             </li>
 
                             <li className="nav-item">
-                                <NavLink to="#" end className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}> Item 2 </NavLink>
+                                <NavLink to="/contact" end className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}> Contact </NavLink>
                             </li>
                         </ul>
                     </Nav>
