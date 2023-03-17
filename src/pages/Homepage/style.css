@@ -4,10 +4,49 @@
     height: 100vh;
 }
 
+.hero-sec {
+    padding: 140px 0;
+}
+
 .header {
     text-align: center;
     color: white;
-    padding-top: 70px;
-    font-size: 60px;
+    font-size: 46px;
     font-weight: 200;
+    padding-bottom: 10px;
+}
+
+.search-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    width: 70%;
+    border-radius: 25px;
+    height: 36px;
+    border: none;
+    margin-bottom: 16px;
+}
+
+.search-btn {
+    background-color: #326BFC;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    padding: 4px 36px;
+}
+
+.constellation-sec {
+    padding: 10px 0 220px 0;
+    background-color: rgb(51, 9, 238);
+}
+
+.constellation-header {
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 30px;
+    font-size: 26px;
 }
