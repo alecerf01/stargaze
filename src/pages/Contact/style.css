@@ -3,6 +3,30 @@
     
 }
 
+.contact-container {
+    background-color: rgb(242, 242, 242);
+    height: 100vh;
+    text-align: center;
+
+}
+
 .contact-header {
-    
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 60px;
+}
+
+.contact-buttons {
+    padding-bottom: 60px;
+}
+
+.buttons {
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.buttons:hover {
+    background-color: rgb(255, 193, 79);
 }
