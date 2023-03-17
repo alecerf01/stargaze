@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from '../../components/Card';
 import Search from '../../components/Search';
+import Footer from "../../components/Footer";
 import './style.css';
 
 function Favourite() {
@@ -12,7 +13,7 @@ function Favourite() {
         <Search />
         <Card />
       
-      
+        <Footer /> 
     </div>
   )
 }

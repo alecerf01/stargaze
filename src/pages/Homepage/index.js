@@ -31,7 +31,7 @@ function Homepage() {
           })}
         </Wrapper>
       </div>
-      <Footer />  {/* to remove - footer is added to app.js */}
+      <Footer /> 
       
 
     </div>
