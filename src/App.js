@@ -4,14 +4,10 @@ import Homepage from './pages/Homepage';
 import Favourite from './pages/Favourite';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
-// import axios from 'axios';
 
 
 
 function App() {
-
-
-
   return (
     <Router>
       <>

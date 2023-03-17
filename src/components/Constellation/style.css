@@ -1,0 +1,34 @@
+.constell-card {
+    border-radius: 2px;
+    height: 325px;
+    width: 350px;
+  }
+
+  /* .constell-card>.img-container {
+    height: 60%;
+  } */
+
+  .constell-card>.img-container>img {
+    width: 100%;
+  }
+
+  .constell-name {
+    color: white;
+    text-transform: uppercase;
+    padding-top: 10px;
+  }
+
+  .constell-link {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: black;
+    padding: 8px 30px;
+    border-radius: 8px;
+  }
+
+  .constell-link:hover {
+    background-color: white;
+    color: blue;
+  }
