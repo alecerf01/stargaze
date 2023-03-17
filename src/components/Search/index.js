@@ -6,12 +6,12 @@ import axios from 'axios';
 function Search() {
   const [starSearch, setStarSearch] = useState('');
   const [starImage, setStarImage] = useState({});
-  const API_KEY = '6b3Hin4OoLFrPjYUINVedOoT7MlvEm0zfNtMlbu0';
+  // const API_KEY = '6b3Hin4OoLFrPjYUINVedOoT7MlvEm0zfNtMlbu0';
 
   function searchStar(event) {
     //Set up correct API call
     // var APICallString = 'https://images-api.nasa.gov/search?q=' + starSearch + '?api_key=' + API_KEY
-    var APICallString = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=' + API_KEY
+    var APICallString = `https://images-api.nasa.gov/search?q=${starSearch}`
     //handle API Call
     axios.get(APICallString).then(function (response) {
       //success
@@ -24,7 +24,7 @@ function Search() {
     });
   }
 
-  const starImageOne = starImage.photos
+  const starImageOne = starImage.collection
   return (
     <div>
 
@@ -34,7 +34,7 @@ function Search() {
       </div>
       {/* {//turnerary operator/} */}
       {JSON.stringify(starImage) != '{}' ?
-        <><img src={starImageOne} /></>
+        <><img src={starImageOne.items[0].links[0].href} /></>
         :
         <><p className='test'>We have no Image</p></>}
 

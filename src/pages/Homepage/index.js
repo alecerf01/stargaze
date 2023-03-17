@@ -4,6 +4,7 @@ import Constellation from '../../components/Constellation';
 import Wrapper from "../../components/Wrapper";
 import Footer from "../../components/Footer";
 import constellations from "../../constellations.json";
+import Card from '../../components/Card';
 import './style.css';
 
 
@@ -15,6 +16,7 @@ function Homepage() {
       <div className='hero-sec'>
         <HeroSection />
         <Search />
+        <Card />
       </div>
 
       <div className='constellation-sec'>

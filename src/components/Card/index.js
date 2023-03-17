@@ -1,6 +1,6 @@
 import React from 'react'
 
-function index() {
+function Card() {
   return (
         <div className="card">
           <div className="img-container">
@@ -15,4 +15,4 @@ function index() {
       )
 }
 
-export default index
+export default Card
