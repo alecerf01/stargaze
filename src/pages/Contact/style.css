@@ -28,5 +28,6 @@
 }
 
 .buttons:hover {
-    background-color: rgb(255, 193, 79);
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
