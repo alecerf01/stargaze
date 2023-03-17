@@ -3,37 +3,37 @@
       "id": 1,
       "name": "Orion",
       "site": "https://en.wikipedia.org/wiki/Orion_(constellation)",
-      "image": "orion.png"
+      "image": "orion.jpg"
     },
     {
       "id": 2,
-      "name": "Aquarius",
-      "site": "https://en.wikipedia.org/wiki/Aquarius_(constellation)",
-      "image": "aquarius.png"
+      "name": "Canis Major",
+      "site": "https://en.wikipedia.org/wiki/Canis_Major",
+      "image": "canis-major.jpg"
     },
     {
       "id": 3,
-      "name": "Orion",
-      "site": "https://en.wikipedia.org/wiki/Orion_(constellation)",
-      "image": "orion.png"
+      "name": "Canis Minor",
+      "site": "https://en.wikipedia.org/wiki/Canis_Minor",
+      "image": "canis-minor.jpg"
     },
     {
       "id": 4,
-      "name": "Aquarius",
-      "site": "https://en.wikipedia.org/wiki/Aquarius_(constellation)",
-      "image": "aquarius.png"
+      "name": "Ursa Major",
+      "site": "https://en.wikipedia.org/wiki/Ursa_Major",
+      "image": "ursa-major.jpg"
     },
     {
       "id": 5,
-      "name": "Orion",
-      "site": "https://en.wikipedia.org/wiki/Orion_(constellation)",
-      "image": "orion.png"
+      "name": "Cassiopeia",
+      "site": "https://en.wikipedia.org/wiki/Cassiopeia_(constellation)",
+      "image": "cassiopeia.jpg"
     },
     {
       "id": 6,
-      "name": "Aquarius",
-      "site": "https://en.wikipedia.org/wiki/Aquarius_(constellation)",
-      "image": "aquarius.png"
+      "name": "Taurus",
+      "site": "https://en.wikipedia.org/wiki/Taurus_(constellation)",
+      "image": "taurus.jpg"
     }
   ]
   

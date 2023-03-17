@@ -1,7 +1,11 @@
 .constell-card {
-    border-radius: 2px;
-    height: 325px;
-    width: 350px;
+    border-radius: 8px;
+    height: auto;
+    width: 360px;
+    padding: 20px 20px 30px 20px;
+    margin-bottom: 50px;
+    border: 1px solid rgb(40, 40, 40);
+    background-color: rgb(62, 62, 62, 0.1);
   }
 
   .constell-card>.img-container>img {
@@ -13,13 +17,15 @@
     color: white;
     text-transform: uppercase;
     padding-top: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
   }
 
   .constell-link {
     margin-top: -20px;
     color: white;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     background-color: rgb(44, 110, 251);
     padding: 8px 30px;
