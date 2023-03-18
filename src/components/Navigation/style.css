@@ -1,7 +1,7 @@
 .nav-style {
     background-color: black !important;
     padding: 20px 0 !important;
-    border-bottom: 1px solid rgb(36, 90, 239);
+    border-bottom: 1px solid white 15rem;
     display: flex;
     position: fixed;
     top: 0;
@@ -11,4 +11,10 @@
 .nav-link {
     color: white !important;
     
+}
+
+.nav-link[aria-current="page"] {
+    text-decoration: underline wavy rgb(36, 90, 239);
+    text-underline-offset: 5px;
+
 }

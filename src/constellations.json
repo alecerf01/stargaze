@@ -3,37 +3,43 @@
       "id": 1,
       "name": "Orion",
       "site": "https://en.wikipedia.org/wiki/Orion_(constellation)",
-      "image": "orion.jpg"
+      "image": "orion.jpg",
+      "description": "Orion is a prominent constellation located on the celestial equator and visible throughout the world. It is one of the most conspicuous and recognizable constellations in the night sky."
     },
     {
       "id": 2,
       "name": "Canis Major",
       "site": "https://en.wikipedia.org/wiki/Canis_Major",
-      "image": "canis-major.jpg"
+      "image": "canis-major.jpg",
+      "description": "Canis Major is a constellation in the southern celestial hemisphere. In the second century, it was included in Ptolemy's 48 constellations, and is counted among the 88 modern constellations."
     },
     {
       "id": 3,
       "name": "Canis Minor",
       "site": "https://en.wikipedia.org/wiki/Canis_Minor",
-      "image": "canis-minor.jpg"
+      "image": "canis-minor.jpg",
+      "description": "Canis Minor is a small constellation in the northern celestial hemisphere. In the second century, it was included as an asterism, or pattern, of two stars in Ptolemy's 48 constellations."
     },
     {
       "id": 4,
       "name": "Ursa Major",
       "site": "https://en.wikipedia.org/wiki/Ursa_Major",
-      "image": "ursa-major.jpg"
+      "image": "ursa-major.jpg",
+      "description": "Ursa Major is a constellation in the northern sky, whose associated mythology likely dates back into prehistory. Its Latin name means greater bear, contrasting it with nearby Ursa Minor, the lesser bear."
     },
     {
       "id": 5,
       "name": "Cassiopeia",
       "site": "https://en.wikipedia.org/wiki/Cassiopeia_(constellation)",
-      "image": "cassiopeia.jpg"
+      "image": "cassiopeia.jpg",
+      "description": "Cassiopeia is a constellation in the northern sky named after the vain queen Cassiopeia, mother of Andromeda, in Greek mythology, who boasted about her unrivaled beauty."
     },
     {
       "id": 6,
       "name": "Taurus",
       "site": "https://en.wikipedia.org/wiki/Taurus_(constellation)",
-      "image": "taurus.jpg"
+      "image": "taurus.jpg",
+      "description": "Taurus is one of the constellations of the zodiac and is located in the northern celestial hemisphere. Taurus is a large and prominent constellation in the Northern Hemisphere's winter sky."
     }
   ]
   

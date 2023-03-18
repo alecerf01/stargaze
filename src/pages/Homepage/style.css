@@ -5,15 +5,7 @@
 }
 
 .hero-sec {
-    padding: 140px 0;
-}
-
-.header {
-    text-align: center;
-    color: white;
-    font-size: 46px;
-    font-weight: 200;
-    padding-bottom: 10px;
+    padding: 100px 0;
 }
 
 .search-field {
@@ -40,13 +32,18 @@
 
 .constellation-sec {
     padding: 10px 0 220px 0;
-    background-color: rgb(1, 1, 1);
+    background-color: rgb(22, 22, 22);
 }
 
 .constellation-header {
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-weight: 200;
     margin-top: 30px;
-    font-size: 26px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-decoration: underline;
+    text-underline-offset: 12px;
+    text-decoration-thickness: from-font;
+    letter-spacing: 1px;
 }

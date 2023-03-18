@@ -7,17 +7,15 @@ import constellations from "../../constellations.json";
 import Card from '../../components/Card';
 import './style.css';
 
-
-
 function Homepage() {
   return (
     <div className='bckg'>
-      
       <div className='hero-sec'>
         <HeroSection />
         <Search />
-        <Card />
       </div>
+
+      <Card />
 
       <div className='constellation-sec'>
         <p className='constellation-header'>6 constellations anyone can recognise</p>
@@ -29,13 +27,13 @@ function Homepage() {
               name={constellation.name}
               image={constellation.image}
               site={constellation.site} 
+              description={constellation.description}
             />
           })}
         </Wrapper>
       </div>
-      <Footer /> 
       
-
+      <Footer /> 
     </div>
   )
 }
