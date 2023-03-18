@@ -29,6 +29,7 @@ function Homepage() {
               name={constellation.name}
               image={constellation.image}
               site={constellation.site} 
+              description={constellation.description}
             />
           })}
         </Wrapper>

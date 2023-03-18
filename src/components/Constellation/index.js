@@ -7,13 +7,16 @@ function Constellation(props) {
     <div className="constell-card">
 
       <div className="img-container">
-        <img alt={props.name} src={image} />
+
+        <a href={props.site} target='_blank' >
+          <img src={image} alt={props.name}></img>
+        </a>
       </div>
 
       <div className="content">
-          <p className='constell-name'> {props.name} </p>
-          <a className='constell-link' target='_blank' href={props.site}>Read more</a>
-
+        <p className='constell-name'> {props.name} </p>
+        <p className='text'>{props.description}</p>
+        <a className='constell-link' target='_blank' href={props.site}>Read more</a>
       </div>
     </div>
   );
