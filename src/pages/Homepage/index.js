@@ -16,8 +16,9 @@ function Homepage() {
       <div className='hero-sec'>
         <HeroSection />
         <Search />
-        <Card />
       </div>
+
+      <Card />
 
       <div className='constellation-sec'>
         <p className='constellation-header'>6 constellations anyone can recognise</p>
