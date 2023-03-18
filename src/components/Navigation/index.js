@@ -30,6 +30,10 @@ function Navigation() {
                             <li className="nav-item">
                                 <NavLink to="/contact" end className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}> Contact </NavLink>
                             </li>
+
+                            <li className="nav-item">
+                                <NavLink to="/serchresult" end className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}> SearchResult </NavLink>
+                            </li>
                         </ul>
                     </Nav>
                 </Navbar.Collapse>

@@ -7,12 +7,9 @@ import constellations from "../../constellations.json";
 import Card from '../../components/Card';
 import './style.css';
 
-
-
 function Homepage() {
   return (
     <div className='bckg'>
-      
       <div className='hero-sec'>
         <HeroSection />
         <Search />
@@ -35,9 +32,8 @@ function Homepage() {
           })}
         </Wrapper>
       </div>
-      <Footer /> 
       
-
+      <Footer /> 
     </div>
   )
 }

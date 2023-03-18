@@ -6,6 +6,8 @@ import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import Contact from './pages/Contact';
 
+import SearchResult from './pages/SearchResult';
+
 
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
           <Route path="/homepage" element={<Homepage />} />
           <Route path="/favourite" element={<Favourite />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/searchresult" element={<SearchResult />} />
         </Routes>
  
       </>
