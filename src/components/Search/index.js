@@ -57,7 +57,7 @@ function Search() {
 
         </>
         :
-        <><p className='test'>We have no Image</p></>}
+        <><p className='test'></p></>}
     </div>
 
 

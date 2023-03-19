@@ -21,7 +21,6 @@ function Favourite() {
             <Card />
             <Card />
             <Card />
-            <Card />
           </Wrapper>
         </div>
 

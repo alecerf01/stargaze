@@ -3,19 +3,20 @@
 }
 
 .save-icon {
-  align-self: right;
   padding-bottom: 16px;
 }
 
 .card {
   padding: 20px;
-
-}
-
-.search-content {
   align-items: center;
+  border-radius: 10px;
 }
 
 .card-image {
-  width: 360px;
+  width: 100%;
+}
+
+.card-name {
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
