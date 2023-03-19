@@ -1,7 +1,6 @@
 import React from 'react';
 import Card from '../../components/Card';
 import Search from '../../components/Search';
-import Footer from "../../components/Footer";
 import HeroSection from '../../components/HeroSection';
 import Wrapper from "../../components/Wrapper";
 import './style.css';
@@ -16,7 +15,7 @@ function Favourite() {
         </div>
 
         <div className='constellation-sec'>
-          <p className='constellation-header'>your favourites</p>
+          <p className='fave-header'>your favourites</p>
 
           <Wrapper>
             <Card />
@@ -27,7 +26,6 @@ function Favourite() {
         </div>
 
       </div>
-      <Footer />
     </>
   )
 }

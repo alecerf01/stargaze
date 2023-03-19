@@ -1,6 +1,5 @@
 import React from 'react';
 import './style.css';
-import Footer from "../../components/Footer";
 
 function Contact() {
 
@@ -26,7 +25,6 @@ function Contact() {
                 </div>
 
             </div>
-            <Footer />
         </>
     )
 }

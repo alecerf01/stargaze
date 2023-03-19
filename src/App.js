@@ -6,8 +6,6 @@ import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import Contact from './pages/Contact';
 
-import SearchResult from './pages/SearchResult';
-
 
 
 function App() {
@@ -15,14 +13,15 @@ function App() {
     <Router>
       <>
         <Navigation />
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/homepage" element={<Homepage />} />
-          <Route path="/favourite" element={<Favourite />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/searchresult" element={<SearchResult />} />
-        </Routes>
- 
+        <div className='home-section'>
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/homepage" element={<Homepage />} />
+            <Route path="/favourite" element={<Favourite />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
+        <Footer />
       </>
     </Router>
   );

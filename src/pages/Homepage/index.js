@@ -2,9 +2,7 @@ import HeroSection from '../../components/HeroSection';
 import Search from '../../components/Search';
 import Constellation from '../../components/Constellation';
 import Wrapper from "../../components/Wrapper";
-import Footer from "../../components/Footer";
 import constellations from "../../constellations.json";
-import Card from '../../components/Card';
 import './style.css';
 
 function Homepage() {
@@ -15,7 +13,7 @@ function Homepage() {
         <Search />
       </div>
 
-      <Card />
+     
 
       <div className='constellation-sec'>
         <p className='constellation-header'>6 constellations anyone can recognise</p>
@@ -33,7 +31,6 @@ function Homepage() {
         </Wrapper>
       </div>
       
-      <Footer /> 
     </div>
   )
 }
