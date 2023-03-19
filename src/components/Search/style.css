@@ -2,3 +2,31 @@
     color: white;
     font-size: 20px;
 }
+
+.search-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    width: 70%;
+    border-radius: 25px;
+    height: 36px;
+    border: none;
+    margin-bottom: 16px;
+    outline: none;
+}
+
+.search-btn {
+    background-color: #326BFC;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    padding: 4px 36px;
+}
+
+.search-btn:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
