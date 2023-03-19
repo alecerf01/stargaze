@@ -1,7 +1,21 @@
+.input {
+  padding-left: 20px;
+}
+
+.save-icon {
+  align-self: right;
+  padding-bottom: 16px;
+}
+
 .card {
-  padding: 10px !important;
+  padding: 20px;
+
+}
+
+.search-content {
+  align-items: center;
 }
 
 .card-image {
-  width: 100px;
+  width: 360px;
 }

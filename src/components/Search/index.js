@@ -30,9 +30,11 @@ function Search() {
   const starImages = starImage.collection
   return (
     <div>
-
       <div className='search-field'>
-        <input className='input' type='text' onChange={e => setStarSearch(e.target.value)}></input>
+        <input 
+          className='input' type='text' placeholder="Search..." onChange={e => setStarSearch(e.target.value)}>
+            
+          </input>
         <button className='search-btn' type="button" onClick={e => searchStar(e)}>Search</button>
       </div>
       {/* {//turnerary operator/} */}
@@ -40,15 +42,15 @@ function Search() {
         <>
           <Holder>
             <Card
-              cardName={starSearch}
+              cardName={starImages.items[0].data[0].title}
               imageLink={starImages.items[0].links[0].href}
               cardDescription={starImages.items[0].data[0].description} />
             <Card
-              cardName={starSearch}
+              cardName={starImages.items[1].data[0].title}
               imageLink={starImages.items[1].links[0].href}
               cardDescription={starImages.items[1].data[0].description} />
             <Card
-              cardName={starSearch}
+              cardName={starImages.items[2].data[0].title}
               imageLink={starImages.items[2].links[0].href}
               cardDescription={starImages.items[2].data[0].description} />
           </Holder>
@@ -56,8 +58,6 @@ function Search() {
         </>
         :
         <><p className='test'>We have no Image</p></>}
-
-
     </div>
 
 
