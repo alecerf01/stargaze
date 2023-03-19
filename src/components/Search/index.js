@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './style.css';
 import axios from 'axios';
+import Card from '../Card';
 
 
 function Search() {
@@ -11,7 +12,8 @@ function Search() {
   function searchStar(event) {
     //Set up correct API call
     // var APICallString = 'https://images-api.nasa.gov/search?q=' + starSearch + '?api_key=' + API_KEY
-    var APICallString = `https://images-api.nasa.gov/search?q=${starSearch}`
+    var APICallString = `https://images-api.nasa.gov/search?q=${starSearch}`;
+
     //handle API Call
     axios.get(APICallString).then(function (response) {
       //success
@@ -24,7 +26,7 @@ function Search() {
     });
   }
 
-  const starImageOne = starImage.collection
+  const starImages = starImage.collection
   return (
     <div>
 
@@ -34,12 +36,26 @@ function Search() {
       </div>
       {/* {//turnerary operator/} */}
       {JSON.stringify(starImage) != '{}' ?
-        <><img src={starImageOne.items[0].links[0].href} /></>
+        <> <Card 
+        cardName={starSearch}
+        imageLink={starImages.items[0].links[0].href}
+        cardDescription={starImages.items[0].data[0].description}/>
+        <Card 
+        cardName={starSearch}
+        imageLink={starImages.items[1].links[0].href}
+        cardDescription={starImages.items[1].data[0].description}/>
+        <Card 
+        cardName={starSearch}
+        imageLink={starImages.items[2].links[0].href}
+        cardDescription={starImages.items[2].data[0].description}/>
+        </>
         :
         <><p className='test'>We have no Image</p></>}
 
 
     </div>
+
+    
   )
 }
 
