@@ -8,7 +8,7 @@ function Footer() {
         <footer className="footer">
             <span>
                 <img src="/logo.svg" height="20" className="d-inline-block align-top" alt="stargaze logo" />
-            </span>
+            </span> &nbsp;&nbsp;
             <span>© Copyright {year}</span>
         </footer>
     );

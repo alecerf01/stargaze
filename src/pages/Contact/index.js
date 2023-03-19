@@ -26,7 +26,6 @@ function Contact() {
                 </div>
 
             </div>
-            <Footer />
         </>
     )
 }

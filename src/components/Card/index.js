@@ -3,7 +3,7 @@ import { FaHeart, FaRegHeart } from "react-icons/fa";
 
 
 {/* <FaHeart className='saved-icon'/> */}
-function Card() {
+function Card({star}) {
   return (
         <div className="card">
           <div className="img-container">
@@ -12,7 +12,7 @@ function Card() {
           </div>
     
           <div className="content">
-            <h2 className='card-name'>Name</h2>
+            <h2 className='card-name'>{star.data[0].title}</h2>
             <p className='card-para'> Description</p>
           </div>
         </div>

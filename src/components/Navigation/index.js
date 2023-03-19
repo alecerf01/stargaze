@@ -20,19 +20,15 @@ function Navigation() {
                         <ul className="navbar-nav"> 
 
                             <li className="nav-item">
-                                <NavLink  aria-current="page" to="/" end className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}> Home </NavLink>
+                                <NavLink  aria-current="page" to="/" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}> Home </NavLink>
                             </li>
 
                             <li className="nav-item">
-                                <NavLink to="/favourite" end className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}> Favourite </NavLink>
+                                <NavLink to="/favourite" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}> Favourite </NavLink>
                             </li>
 
                             <li className="nav-item">
-                                <NavLink to="/contact" end className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}> Contact </NavLink>
-                            </li>
-
-                            <li className="nav-item">
-                                <NavLink to="/serchresult" end className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}> SearchResult </NavLink>
+                                <NavLink to="/contact" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}> Contact </NavLink>
                             </li>
                         </ul>
                     </Nav>

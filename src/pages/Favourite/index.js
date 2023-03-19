@@ -16,7 +16,7 @@ function Favourite() {
         </div>
 
         <div className='constellation-sec'>
-          <p className='constellation-header'>your favourites</p>
+          <p className='fave-header'>your favourites</p>
 
           <Wrapper>
             <Card />
@@ -27,7 +27,6 @@ function Favourite() {
         </div>
 
       </div>
-      <Footer />
     </>
   )
 }
