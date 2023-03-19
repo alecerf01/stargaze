@@ -10,15 +10,11 @@ function Card(props) {
     if(!savedCards || savedCards.length < 1){
       return false
     }
-
     const isFav = savedCards.find((card) => card.imageLink === props.imageLink)
-
     return isFav
   }
 
   const [isFav, setIsFav] = useState(isFavourite());
-
- 
 
   function save() {
     const savedCards = localStorage.getItem('cards');
@@ -30,26 +26,23 @@ function Card(props) {
     }
 
     // check if card is already Favourite, don't save card again
-
     // if it's not favourite get card 'JSON.parse' -> array.push -> Json.stringify -> localstorage.setItem('cards', updatedArray)
-
     // find if the card is already saved
-
-
   }
   
   return (
         <div className="card">
+
           <div className="img-container">
             <div onClick={save} className='save-icon'><FaRegHeart/></div>
-            <img className='card-image'></img>
           </div>
     
           <div className="content">
-            <img src={props.imageLink} alt="" />
+            <img className='card-image' src={props.imageLink} alt="" />
             <h2 className='card-name'>{props.cardName}</h2>
             <p className='card-para'>{props.cardDescription}</p>
           </div>
+
         </div>
       )
 }

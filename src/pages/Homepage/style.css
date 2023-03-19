@@ -1,6 +1,7 @@
 .bckg {
     background: url('../../images/stars.jpg')
     center center/cover no-repeat;
+    /* background-color: rgb(48, 48, 48); */
 }
 
 .hero-sec {

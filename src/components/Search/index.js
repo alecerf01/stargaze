@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './style.css';
 import axios from 'axios';
 import Card from '../Card';
+import Holder from "../../components/Holder";
 
 
 function Search() {
@@ -36,18 +37,22 @@ function Search() {
       </div>
       {/* {//turnerary operator/} */}
       {JSON.stringify(starImage) != '{}' ?
-        <> <Card 
-        cardName={starSearch}
-        imageLink={starImages.items[0].links[0].href}
-        cardDescription={starImages.items[0].data[0].description}/>
-        <Card 
-        cardName={starSearch}
-        imageLink={starImages.items[1].links[0].href}
-        cardDescription={starImages.items[1].data[0].description}/>
-        <Card 
-        cardName={starSearch}
-        imageLink={starImages.items[2].links[0].href}
-        cardDescription={starImages.items[2].data[0].description}/>
+        <>
+          <Holder>
+            <Card
+              cardName={starSearch}
+              imageLink={starImages.items[0].links[0].href}
+              cardDescription={starImages.items[0].data[0].description} />
+            <Card
+              cardName={starSearch}
+              imageLink={starImages.items[1].links[0].href}
+              cardDescription={starImages.items[1].data[0].description} />
+            <Card
+              cardName={starSearch}
+              imageLink={starImages.items[2].links[0].href}
+              cardDescription={starImages.items[2].data[0].description} />
+          </Holder>
+
         </>
         :
         <><p className='test'>We have no Image</p></>}
@@ -55,7 +60,7 @@ function Search() {
 
     </div>
 
-    
+
   )
 }
 
