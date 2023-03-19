@@ -7,13 +7,14 @@ import './style.css';
 
 function Homepage() {
   return (
-    <div className='bckg'>
-      <div className='hero-sec'>
-        <HeroSection />
-        <Search />
+    <div>
+      <div className='bckg'>
+        <div className='hero-sec'>
+          <HeroSection />
+          <Search />
+        </div>
       </div>
 
-     
 
       <div className='constellation-sec'>
         <p className='constellation-header'>6 constellations anyone can recognise</p>
@@ -24,13 +25,13 @@ function Homepage() {
               key={constellation.id}
               name={constellation.name}
               image={constellation.image}
-              site={constellation.site} 
+              site={constellation.site}
               description={constellation.description}
             />
           })}
         </Wrapper>
       </div>
-      
+
     </div>
   )
 }

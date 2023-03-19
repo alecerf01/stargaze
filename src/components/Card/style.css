@@ -4,11 +4,12 @@
 
 .save-icon {
   padding-bottom: 16px;
+  float: right;
+
 }
 
 .card {
   padding: 20px;
-  align-items: center;
   border-radius: 10px;
 }
 
