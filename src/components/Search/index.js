@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './style.css';
 import axios from 'axios';
-import Card from '../../components/Card';
+
 
 function Search() {
   const [starSearch, setStarSearch] = useState('');
@@ -22,7 +22,6 @@ function Search() {
       //error
       console.log(err)
     });
-    
   }
 
   const starImageOne = starImage.collection
@@ -33,12 +32,6 @@ function Search() {
         <input className='input' type='text' onChange={e => setStarSearch(e.target.value)}></input>
         <button className='search-btn' type="button" onClick={e => searchStar(e)}>Search</button>
       </div>
-
-      {starImage.collection ? starImage.collection.items.map(star => {
-        return <Card star={star} />
-      }
-      ):""}
-      
       {/* {//turnerary operator/} */}
       {JSON.stringify(starImage) != '{}' ?
         <><img src={starImageOne.items[0].links[0].href} /></>
