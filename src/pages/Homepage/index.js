@@ -11,8 +11,14 @@ function Homepage() {
     <div>
       <div >
         <div className='hero-sec'>
+
           <HeroSection />
           <Search />
+
+          <div className='threeD'>
+            <R3fDemo> </R3fDemo>
+          </div>
+
         </div>
       </div>
       <div style={{ width: "100%", height: "50vh", background: '#555555' }}>
