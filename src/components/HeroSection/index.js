@@ -9,7 +9,7 @@ function HeroSection() {
   return (
     <>
       <div >
-        <h1 className='header'>Find the best stargazing locations</h1>
+        <h1 className='header'>IMAGINE</h1>
       </div>
     </>
   )

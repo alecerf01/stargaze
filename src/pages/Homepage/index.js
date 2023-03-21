@@ -9,13 +9,13 @@ import R3fDemo from '../../components/threeFiber';
 function Homepage() {
   return (
     <div>
-      <div className='bckg'>
+      <div >
         <div className='hero-sec'>
           <HeroSection />
           <Search />
         </div>
       </div>
-      <div style={{ width: "100vw", height: "50vh", background: '#555555' }}>
+      <div style={{ width: "100%", height: "50vh", background: '#555555' }}>
         <R3fDemo ></R3fDemo></div>
 
       <div className='constellation-sec'>
