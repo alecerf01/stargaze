@@ -4,6 +4,7 @@ import Constellation from '../../components/Constellation';
 import Wrapper from "../../components/Wrapper";
 import constellations from "../../constellations.json";
 import './style.css';
+import R3fDemo from '../../components/threeFiber';
 
 function Homepage() {
   return (
@@ -14,7 +15,8 @@ function Homepage() {
           <Search />
         </div>
       </div>
-
+      <div style={{ width: "100vw", height: "50vh", background: '#555555' }}>
+        <R3fDemo ></R3fDemo></div>
 
       <div className='constellation-sec'>
         <p className='constellation-header'>6 constellations anyone can recognise</p>
@@ -35,5 +37,7 @@ function Homepage() {
     </div>
   )
 }
+
+//https://www.youtube.com/watch?v=DPl34H2ISsk&t=89s INFLUENCE / HELP 
 
 export default Homepage

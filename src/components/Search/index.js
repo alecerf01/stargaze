@@ -41,7 +41,7 @@ function Search() {
       {JSON.stringify(starImage) != '{}' ?
         <>
           <Holder>
-            <Card
+            <Card id='cardOne'
               cardName={starImages.items[0].data[0].title}
               imageLink={starImages.items[0].links[0].href}
               cardDescription={starImages.items[0].data[0].description} />
