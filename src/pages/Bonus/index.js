@@ -1,5 +1,5 @@
 import axios from "axios";
-import "./style.css";
+import "./index.css";
 import React, { useState, useEffect } from 'react'
 
 function Bonus() {

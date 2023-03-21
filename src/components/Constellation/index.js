@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './index.css';
 
 function Constellation(props) {
   const image = require(`../../images/${props.image}`)

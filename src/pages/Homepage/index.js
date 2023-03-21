@@ -3,7 +3,7 @@ import Search from '../../components/Search';
 import Constellation from '../../components/Constellation';
 import Wrapper from "../../components/Wrapper";
 import constellations from "../../constellations.json";
-import './style.css';
+import './index.css';
 import R3fDemo from '../../components/threeFiber';
 
 function Homepage() {
@@ -11,18 +11,17 @@ function Homepage() {
     <div>
       <div >
         <div className='hero-sec'>
-
           <HeroSection />
           <Search />
-
         </div>
       </div>
-      <div style={{ width: "100%", height: "50vh", background: '#555555' }}>
-        <R3fDemo ></R3fDemo></div>
+
+      <div className='threeD'>
+        <R3fDemo ></R3fDemo>
+      </div>
 
       <div className='constellation-sec'>
         <p className='constellation-header'>6 constellations anyone can recognise</p>
-
         <Wrapper>
           {constellations.map(function (constellation) {
             return <Constellation

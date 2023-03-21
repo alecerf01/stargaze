@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { FaHeart, FaRegHeart } from "react-icons/fa";
-import './style.css';
+import './index.css';
 
 {/* <FaHeart className='saved-icon'/> */ }
 

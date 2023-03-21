@@ -3,7 +3,7 @@ import Card from '../../components/Card';
 import Search from '../../components/Search';
 import HeroSection from '../../components/HeroSection';
 import Wrapper from "../../components/Wrapper";
-import './style.css';
+import './index.css';
 
 function Favourite() {
   return (
@@ -18,9 +18,9 @@ function Favourite() {
           <p className='fave-header'>your favourites</p>
 
           <Wrapper>
+            {/* <Card />
             <Card />
-            <Card />
-            <Card />
+            <Card /> */}
           </Wrapper>
         </div>
 
