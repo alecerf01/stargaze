@@ -11,12 +11,19 @@ function Homepage() {
     <div>
       <div className='bckg'>
         <div className='hero-sec'>
+
           <HeroSection />
           <Search />
+
+          <div className='threeD'>
+            <R3fDemo> </R3fDemo>
+          </div>
+
         </div>
       </div>
-      <div style={{ width: "100vw", height: "50vh", background: '#555555' }}>
-        <R3fDemo ></R3fDemo></div>
+
+      {/* <div style={{ width: "100%", height: "50vh", background: '#555555' }}> */}
+
 
       <div className='constellation-sec'>
         <p className='constellation-header'>6 constellations anyone can recognise</p>
