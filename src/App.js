@@ -6,6 +6,7 @@ import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import Contact from './pages/Contact';
 import Bonus from './pages/Bonus';
+import './App.css'
 
 
 
