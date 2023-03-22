@@ -1,16 +1,20 @@
 import React from 'react';
 import './index.css';
+import R3fDemo from '../../components/threeFiber';
 
 function Contact() {
 
     return (
         <>
             <div className='contact-container'>
+            <div className='threeD'>
+          <R3fDemo ></R3fDemo>
+        </div>
                 <div className='main-para'>
-                    <p className="contact-header">Contact us</p>
+                    <h1 className="contact-header">Contact us</h1>
                     <p className="para">You can check our repo for &nbsp;&nbsp;
                         <span>
-                            <img src="/logo-black.svg" height="20" className="d-inline-block align-top" alt="stargaze logo" />
+                            <img src="/logo.svg" height="20" className="d-inline-block align-top" alt="stargaze logo" />
                         </span> &nbsp;below</p>
                 </div>
 
@@ -19,9 +23,9 @@ function Contact() {
                 </div>
 
                 <div className='contact-buttons'>
-                    <a target='_blank' href="#"> <button className='buttons' type="button"> Alex</button></a>
-                    <a target='_blank' href="#"> <button className='buttons' type="button"> Maggie</button></a>
-                    <a target='_blank' href="#"> <button className='buttons' type="button"> Ryan</button></a>
+                    <a target='_blank' href="https://github.com/alecerf01"> <button className='buttons' type="button"> Alex</button></a>
+                    <a target='_blank' href="https://github.com/Marzena-W"> <button className='buttons' type="button"> Maggie</button></a>
+                    <a target='_blank' href="https://github.com/ryanpauldutton"> <button className='buttons' type="button"> Ryan</button></a>
                 </div>
 
             </div>

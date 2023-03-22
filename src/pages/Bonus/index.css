@@ -1,25 +1,31 @@
 .bckg {
-    background: url('../../images/stars.jpg') center center/cover no-repeat;
+  /* background: url('../../images/stars.jpg') center center/cover no-repeat; */
 }
 
-.header {
-    color: white;
-    padding: 30px;
-    text-align: center;
-    font-weight: 300;
+.bonus-card {
+  /* background: rgba(0, 0, 0, 0.5) !important; */
+  background: rgba(221, 106, 106, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  max-width: 80%;
+  height: auto;
+  margin: auto;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 50px;
 }
 
-.card {
-    /* background: rgba(0, 0, 0, 0.5) !important; */
-    background: black !important;
-    max-width: 80%;
-    height: auto;
-    margin: auto;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
+.bonus-card-image {
+  border-radius: 8px;
+  object-fit: cover;
+  height: 40vh;
+  width: 100%;
 }
 
-.card-image {
-    border-radius: 8px;
+h1 {
+    padding: 100px 0 20px 0;
 }

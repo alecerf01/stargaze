@@ -8,26 +8,22 @@ import './index.css';
 
 function Favourite() {
   return (
-    <div>
-      <div className='header-sec'>
-        <div className='hero-sec'>
-          <HeroSection />
-          <Search />
-        </div>
+    <div >
+      
 
         <div className='threeD'>
           <R3fDemo ></R3fDemo>
         </div>
 
-      </div>
+      
 
-      <div className=''>
-        <p className='fave-header'>your favourites</p>
-        <Wrapper>
+      <div className='fav-section'>
+        <h1 className='header'>COMING SOON!</h1>
+        {/* <Wrapper> */}
           {/* <Card />
           <Card />
           <Card /> */}
-        </Wrapper>
+        {/* </Wrapper> */}
       </div>
 
     </div>

@@ -3,4 +3,7 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
+    font-size: 46px;
+    font-weight: 200;
+    padding-bottom: 10px;
   }
