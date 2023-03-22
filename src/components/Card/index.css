@@ -5,6 +5,7 @@
 .save-icon {
   padding-bottom: 16px;
   float: right;
+  color: white;
 }
 
 /* .card-wrap {
@@ -16,19 +17,34 @@
   padding: 20px;
   border-radius: 10px;
   overflow: auto;
-  height: auto;
+  height: 70vh;
   width: 370px;
-  background: black;
-  color: white;
+  background: rgba(221, 106, 106, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  max-height: 70vh;
+  overflow-y: auto !important;
+  -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);
+  margin-top: 20px !important;
+}
 
+.card-sec::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
 }
 
 .card-image {
-  width: auto;
-  height: 100px;
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+  margin: auto;
+  border-radius: 8px;
 }
 
 .card-name {
   padding-top: 20px;
   padding-bottom: 10px;
+  color: white;
 }
