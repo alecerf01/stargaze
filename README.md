@@ -37,7 +37,7 @@ Follow this [Link](https://github.com/facebook/create-react-app#creating-an-app)
 
 ## Live Application
 
-Click [here](https://alecerf01.github.io/Geezer-Project/) to go to the application.
+Click [here](https://stargaze-3c356b.netlify.app/) to go to the application.
 
 <br/>
 
