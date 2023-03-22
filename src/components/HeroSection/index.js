@@ -6,7 +6,7 @@ function HeroSection() {
   return (
     <>
       <div className='header'>
-        <h1 >IMAGINE</h1>
+        <h1 >STARGAZE</h1>
       </div>
     </>
   )
