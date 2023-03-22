@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import './style.css';
+import Holder from "../../components/Holder";
 import axios from 'axios';
 import Card from '../Card';
-import Holder from "../../components/Holder";
+import './index.css';
 
 
 function Search() {
@@ -29,14 +29,15 @@ function Search() {
 
   const starImages = starImage.collection
   return (
-    <div>
+    <div className='search-section'>
+
       <div className='search-field'>
-        <input 
+        <input
           className='input' type='text' placeholder="Search..." onChange={e => setStarSearch(e.target.value)}>
-            
-          </input>
+        </input>
         <button className='search-btn' type="button" onClick={e => searchStar(e)}>Search</button>
       </div>
+
       {/* {//turnerary operator/} */}
       {JSON.stringify(starImage) != '{}' ?
         <>
@@ -57,7 +58,8 @@ function Search() {
 
         </>
         :
-        <><p className='test'></p></>}
+        <><p></p></>}
+
     </div>
 
 

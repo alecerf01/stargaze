@@ -1,6 +1,6 @@
-.test {
-    color: white;
-    font-size: 20px;
+.search-section {
+    justify-content: center;
+    width: auto;
 }
 
 .search-field {
@@ -16,6 +16,7 @@
     border: none;
     margin-bottom: 16px;
     outline: none;
+    padding-left: 20px;
 }
 
 .search-btn {
@@ -27,6 +28,6 @@
 }
 
 .search-btn:hover {
-    background-color: rgb(0, 0, 0);
-    color: white;
+    background-color: white;
+    color: #326BFC;
 }

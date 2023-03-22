@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './index.css';
 
 function Constellation(props) {
   const image = require(`../../images/${props.image}`)
@@ -7,7 +7,6 @@ function Constellation(props) {
     <div className="constell-card">
 
       <div className="img-container">
-
         <a href={props.site} target='_blank' >
           <img src={image} alt={props.name}></img>
         </a>

@@ -1,5 +1,5 @@
 import axios from "axios";
-import "./style.css";
+import "./index.css";
 import React, { useState, useEffect } from 'react'
 
 function Bonus() {
@@ -32,11 +32,13 @@ function Bonus() {
     <div>
       <div className="bckg">
         <div className="header">Picture of the Day</div>
+
         <div className="card">
-          <img className="card-image" src={dailyImage} alt="" />
+          <img className="card-image" src={dailyImage} alt="picture of the day" />
           <h2 className="card-name">{dailyTitle}</h2>
           <p className="card-para">{dailyDesc}</p>
         </div>
+
       </div>
     </div>
   );
