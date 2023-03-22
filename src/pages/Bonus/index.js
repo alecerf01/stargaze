@@ -1,6 +1,7 @@
 import axios from "axios";
 import "./index.css";
 import React, { useState, useEffect } from 'react'
+import R3fDemo from "../../components/threeFiber";
 
 function Bonus() {
 
@@ -30,14 +31,18 @@ function Bonus() {
 
   return (
     <div>
-      <div className="bckg">
-        <div className="header">Picture of the Day</div>
+      <div>
+        <div className='threeD'>
+          <R3fDemo ></R3fDemo>
+        </div>
+        <h1 className="header">PICTURE OF THE DAY</h1>
 
-        <div className="card">
-          <img className="card-image" src={dailyImage} alt="picture of the day" />
+        <div className="bonus-card">
+          <img className="bonus-card-image" src={dailyImage} alt="picture of the day" />
           <h2 className="card-name">{dailyTitle}</h2>
           <p className="card-para">{dailyDesc}</p>
         </div>
+
 
       </div>
     </div>
