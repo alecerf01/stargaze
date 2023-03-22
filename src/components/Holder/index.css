@@ -5,3 +5,11 @@
     justify-content: space-evenly;
     align-items: flex-start;
   }
+
+  @media all and (max-width:1000px) {
+    .holder{
+      display: flex;
+      flex-wrap: wrap;
+align-items: center;
+    }
+  }
