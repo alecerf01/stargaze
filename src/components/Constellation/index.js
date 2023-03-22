@@ -7,7 +7,6 @@ function Constellation(props) {
     <div className="constell-card">
 
       <div className="img-container">
-
         <a href={props.site} target='_blank' >
           <img src={image} alt={props.name}></img>
         </a>

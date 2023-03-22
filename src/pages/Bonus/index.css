@@ -1,6 +1,5 @@
 .bckg {
-    background: url('../../images/stars.jpg')
-    center center/cover no-repeat;
+    background: url('../../images/stars.jpg') center center/cover no-repeat;
 }
 
 .header {
@@ -17,6 +16,8 @@
     height: auto;
     margin: auto;
     color: white;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .card-image {

@@ -32,14 +32,20 @@ function Card(props) {
   }
 
   return (
-    <div className="card">
-      <div className='save-icon' onClick={save}>
-        <FaRegHeart />
-      </div>
+    <div className='card-wrap'>
+      <div className="card-sec">
 
-      <img className='card-image' src={props.imageLink} alt="" />
-      <h2 className='card-name'>{props.cardName}</h2>
-      <p className='card-para'>{props.cardDescription}</p>
+        <div className='save-icon' onClick={save}>
+          <FaRegHeart />
+        </div>
+
+        <div>
+          <img className='card-image' src={props.imageLink} alt="" />
+          <h2 className='card-name'>{props.cardName}</h2>
+          <p className='card-para'>{props.cardDescription}</p>
+        </div>
+
+      </div>
     </div>
   )
 }

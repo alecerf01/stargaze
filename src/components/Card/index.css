@@ -7,13 +7,20 @@
   float: right;
 }
 
-.card {
+/* .card-wrap {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+} */
+
+.card-sec {
   padding: 20px;
   border-radius: 10px;
-  align-content: flex-start;
   overflow: auto;
+  height: auto;
+  width: 370px;
+  background: black;
+  color: white;
+
 }
 
 .card-image {

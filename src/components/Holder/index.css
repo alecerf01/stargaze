@@ -1,6 +1,7 @@
 .holder {
     display: flex;
-    flex-direction: row;
     grid-gap: 20px;
     padding: 40px;
+    justify-content: space-evenly;
+    align-items: flex-start;
   }
