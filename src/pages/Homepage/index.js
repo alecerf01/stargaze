@@ -9,15 +9,12 @@ import R3fDemo from '../../components/threeFiber';
 function Homepage() {
   return (
     <div>
-      <div>
-        <div className='header-sec'>
 
-          <div className='hero-sec'>
-            <HeroSection />
-            <Search />
-          </div>
+      <div className='header-sec'>
+        <div className='hero-sec'>
+          <HeroSection />
+          <Search />
         </div>
-
 
         <div className='threeD'>
           <R3fDemo ></R3fDemo>
