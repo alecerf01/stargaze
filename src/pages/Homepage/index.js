@@ -18,11 +18,13 @@ function Homepage() {
           </div>
         </div>
 
+
         <div className='threeD'>
           <R3fDemo ></R3fDemo>
         </div>
 
       </div>
+
 
       <div className='constellation-sec'>
         <p className='constellation-header'>6 constellations anyone can recognise</p>

@@ -3,15 +3,19 @@
     center center/cover no-repeat;
 }
 
-.hero-sec {
-    padding: 100px 0;
-}
-
-
-.card-image {
-    height: 500px
+.header {
+    color: white;
+    padding: 30px;
+    text-align: center;
 }
 
 .card {
-    background: black;
+    /* background: transparent !important; */
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.card-image {
+    border-radius: 8px;
 }
