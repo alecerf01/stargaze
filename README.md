@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Project 2 - Stargaze 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Mardown badges
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-## Available Scripts
+# Table of contents
+- [Markdown Badges](#markdown-badges)
+- [Description](#description)
+- [Usage](#usage)
+- [Installation](#installation)
+- [Live Application](#live-application)
+- [Future Implementation](#future-implementation)
+- [Contribution](#contribution)
+- [Authors](#authors)
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+#### Allows users to search any and all information that the NASA open API holds for researchers, enthusiast or students, enabling the end user to improve their knowlegde on all things space related 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
+#### When user imputs any star, constellation or any space related info, the page returns three cards with information and a picture of what user searched for, they can navigate to different pages on the webpage which will host different content highlighting the current page with a blue underline style. The bonus page will post the astronomy picture of the day so that users will always have something new to look at. users can get started by looking at some most commonly known constellations with links to wikipedia for more in depth information.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br/>
 
-### `npm test`
+## Technologies Used
+>#### NASA open APIs (two end points used)
+>#### Three Fiber
+>#### React Icons
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+## Installation 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Follow this [Link](https://github.com/facebook/create-react-app#creating-an-app) to get your react app started and all relevant documentation needed.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Live Application
 
-### `npm run eject`
+Click [here](https://alecerf01.github.io/Geezer-Project/) to go to the application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br/>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+>Below is a screenshot of the appllication.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Stargaze screenshot](./src/images/stargaze-mockup.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<br/>
 
-## Learn More
+## Future Implementation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### In the future we will add additional functionality to the search input so it has a separate input field for artists. We will also create a clear button, so end user is able to clear search history.  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br/>
 
-### Code Splitting
+## Contribution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To contribute to this project create a clone of this repo on your local computer and create a pull request to add any features that are wanted or contact us through our githubs.
 
-### Analyzing the Bundle Size
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Authors
+ 
+ * [Alexis-Charles Lecerf (Alex)](https://github.com/alecerf01)
+ * [Marzena Wilk (Maggie)](https://github.com/Marzena-W)
+ * [Ryan Dutton](https://github.com/ryanpauldutton)
