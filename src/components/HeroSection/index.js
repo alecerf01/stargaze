@@ -6,7 +6,7 @@ function HeroSection() {
   return (
     <>
       <div className='header'>
-        <h1 >STARGAZE</h1>
+        <h1 >EXPAND YOUR SPACE KNOWLEDGE</h1>
       </div>
     </>
   )
